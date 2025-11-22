@@ -1,5 +1,8 @@
 name: Windows Build and Chocolatey Package
 
+permissions:
+  contents: write
+
 # Security Features:
 # - Only repository owner/maintainers can trigger builds
 # - Google OAuth credentials stored securely in GitHub Secrets
