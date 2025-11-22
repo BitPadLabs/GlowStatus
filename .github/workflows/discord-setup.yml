@@ -1,5 +1,8 @@
 name: Discord Server Setup
 
+permissions:
+  contents: read
+
 # Security Features:
 # - Only repository owner can trigger Discord setup
 # - GLOWBOY token stored securely in GitHub Secrets
